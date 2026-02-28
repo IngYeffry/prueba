@@ -1,0 +1,12 @@
+#nombre = input ("Como te llama?")
+#print ("Hola," + nombre + "!")
+#apellido = input (nombre + ", Cual es tu apellido?")
+#print ("Que bien," + nombre + " " + apellido + "!")
+fecha=int(input("En que año naciste?"))
+edad=2025-fecha
+print("Este año cumples "+str(edad)+(" años"))
+#color = input (nombre + " Cuál es tu color favorito?")
+#print ("Que bien," + nombre + " " + apellido + " El color " + color + " Es muy bonito" )
+print(f"{edad:.3f}")
+print(f"{3.14164568:.2f}")
+print("Este año cumples --> "+"{:.2f}".format(edad)+" años")
